@@ -113,7 +113,7 @@
 
 #define LTHUMB_TUCK  &bsk LSHIFT LSHIFT
 #define LTHUMB_HOME  &sc VIM_NAV_LAYER BACKSPACE
-#define LTHUMB_REACH &sc NUM_ROW_LAYER ESCAPE
+#define LTHUMB_REACH &sc NUM_ROW_LAYER TAB
 #define RTHUMB_REACH &sc NUM_ROW_LAYER ENTER
 #define RTHUMB_HOME  &lt VIM_NAV_LAYER SPACE
 #define RTHUMB_TUCK  &sym_shift_altgr
@@ -300,7 +300,7 @@
             display-name = "VimNav";
             bindings = <
                 &none  &none    X_CTL_W  &vim_prev  &vim_next  &none        &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp DEL  &none
-                &none  X_ALL    X_SAVE   X_SHTAB    &kp TAB    &none        &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none    &none
+                &none  X_ALL    X_SHTAB   &kp ESC   &kp TAB    &none        &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &none    &none
                 &none  X_UNDO   X_CUT    X_COPY     X_PASTE    X_REDO       &none     &none      &none      &none      &none    &none
                        &kp CAPS  &lt FN_MEDIA_LAYER DEL  &mo NUM_ROW_LAYER    &trans  &mo FN_MEDIA_LAYER  &lbsk RALT RALT
             >;
